@@ -8,6 +8,10 @@ function Navbar() {
             <Link to="/blog">Blog</Link>
             <Link to="/counter">Counter</Link>
             <Link to="/form">Form</Link>
+            <Link to="/AddBlog">AddBlog</Link>
+
+           
+
         </nav>
     );
 }
