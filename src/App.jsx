@@ -8,6 +8,9 @@ import BlogDetails from './components/BlogDetails'
 import Counter from './components/Counter'
 import Form from './components/Form'
 import AddBlog from './components/AddBlog'
+import BlogList from './components/BlogList'
+import WizardForm from './components/WizardForm'
+import My from './components/My'
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
       <Route path="/Counter" element={<Counter />} />
       <Route path="/Form" element={<Form />} />
       <Route path="/AddBlog" element={<AddBlog/>} />
+      <Route path="/BlogList" element={<BlogList/>} />
+      <Route path="WizardForm" element={<WizardForm />} />
+      <Route path="My" element={<My />} />
 
       
 
